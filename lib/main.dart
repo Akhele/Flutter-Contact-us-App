@@ -14,9 +14,15 @@ class contact extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Contact Us"),
-          backgroundColor: Colors.blueAccent,
+          elevation: 0,
+          title: Text("Contact Us", style: TextStyle(color: Colors.orange),),
+          backgroundColor: Colors.white,
+        ),
 
+        body: Column(
+          children: [
+            Image.asset('images/contact.jpg')
+          ],
         ),
       ),
     );
