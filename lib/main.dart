@@ -44,9 +44,17 @@ class contact extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey,
+                          blurRadius: 20,
+                        )
+                      ]
+                    ),
                     height: 100,
                     width: 150,
-                    color: Colors.grey,
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -61,9 +69,18 @@ class contact extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey,
+                          blurRadius: 20,
+                        ),
+                      ],
+                      ),
+
                     height: 100,
                     width: 150,
-                    color: Colors.grey,
                     child: Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: Column(
@@ -85,9 +102,18 @@ class contact extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
+
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      boxShadow : [
+                        BoxShadow(
+                          color: Colors.grey,
+                          blurRadius: 20
+                        )
+                      ]
+                    ),
                     height: 100,
                     width: 150,
-                    color: Colors.grey,
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -102,9 +128,18 @@ class contact extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
+                    decoration: BoxDecoration (
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey,
+                          blurRadius: 20,
+                        )
+                      ]
+
+                    ),
                     height: 100,
                     width: 150,
-                    color: Colors.grey,
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
