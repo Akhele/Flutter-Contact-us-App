@@ -36,6 +36,8 @@ class contact extends StatelessWidget {
                 fontSize: 20,
               ),
             ),
+
+            SizedBox(height: 30,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
 
@@ -153,8 +155,17 @@ class contact extends StatelessWidget {
                 ),
               ],
             ),
+
+            // Footer : Start
+
+            Text("Made by Akhele", style: TextStyle(color: Colors.orange),)
+
+            //Footer : End
+
           ],
+
         ),
+
       ),
     );
   }
